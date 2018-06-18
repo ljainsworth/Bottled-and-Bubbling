@@ -13,8 +13,8 @@ color: #00cc99;
 }
 ul {
   list-style-type: none;
+  margin-top: 50px;
   padding: 0;
-  margin: 0;
   overflow: hidden;
   background-color: white;
 }
@@ -36,4 +36,8 @@ text-decoration: none;
 }
 #logo {
   width: 70px;
+  border-radius: 50%;
+}
+#menu {
+  padding-left: 80px;
 }
