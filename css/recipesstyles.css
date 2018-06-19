@@ -1,8 +1,10 @@
 body {
   font-family: "Amatic SC", "arial";
   font-size: 30px;
-  background-image: url('../images/main_image.jpg');
-  background-size: cover;
+}
+div {
+    font-family: "Dosis";
+    font-size: 30px;
 }
 h1 {
 color: #ff9966;
