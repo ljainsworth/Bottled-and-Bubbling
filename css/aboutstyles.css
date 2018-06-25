@@ -1,51 +1,81 @@
+html {
+  width: 1200px;
+  margin: auto;
+}
+ul.nav_menu {
+  background-color: rgba(255,255,255,0.8);
+  color: #00cc99;
+  font-family: "Amatic SC", "arial";
+  font-size: 30px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 1200px;
+}
+ul.nav_menu li {
+  display: inline-block;
+  display: incline;
+  float: left;
+  padding-left: 100px;
+  text-align: right
+  text-decoration: none;
+}
+ul.nav_menu .social img{
+  margin: auto;
+  padding-left: 10px;
+  width: 45px;
+}
+ul.nav_menu li:hover {
+  text-decoration: underline;
+}
+ul.nav_menu a {
+  color: #00cc99;
+  text-decoration: none;
+}
 body {
+  background-image: url('../images/home_background.jpg');
+  background-size: cover;
   font-family: "Amatic SC", "arial";
   font-size: 30px;
 }
 div {
   font-family: "Dosis";
   font-size: 20px;
+  padding: 20px;
 }
-h1 {
-color: #ff9966;
+.title h1 {
+  color: #ff9966;
+  font-family: "Amatic SC", "arial";
+  font-size: 50px;
+  padding-top:80px;
+  text-align: center;
 }
-h2 {
-font-style: italic;
-color: #00cc99;
-font-family: "Amatic SC", "arial";
-font-size: 30px;
-}
-ul {
-  list-style-type: none;
-  margin-top: 50px;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
-}
-ul.nav li {
-  text-align: right;
-  display: inline-block;
-  padding-right: 50px;
-  display: inline;
-  float: left;
+.intro h2 {
   color: #00cc99;
-  text-decoration: none;
+  font-family: "Amatic SC", "arial";
+  font-size: 40px;
 }
-ul.nav li:hover {
-  text-decoration: underline;
+.health h2 {
+  color: #00cc99;
+  font-family: "Amatic SC", "arial";
+  font-size: 40px;
 }
-a {
-color: #00cc99;
-text-decoration: none;
+.risks h2 {
+  color: #00cc99;
+  font-family: "Amatic SC", "arial";
+  font-size: 40px;
 }
-p {
-  font-family:
-
+.title, .intro, .health, .risks {
+    border-bottom: 2px solid #c4c0bc;
 }
-#logo {
-  width: 70px;
-  border-radius: 50%;
+img {
+  border-radius: 20px;
 }
-#menu {
-  padding-left: 80px;
+footer {
+  background: rgba(255,255,255,0.8);
+}
+#button {
+  margin-left: 20px;
 }
