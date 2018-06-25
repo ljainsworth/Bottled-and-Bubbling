@@ -57,6 +57,9 @@ div {
   font-family: "Amatic SC", "arial";
   font-size: 30px;
 }
+.title, .kits, .buy {
+  border-bottom: 2px solid #c4c0bc;
+}
 img {
   border-radius: 20px;
 }
