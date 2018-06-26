@@ -42,7 +42,6 @@ body {
   font-size: 30px;
 }
 div {
-  border-bottom: 2px solid #c4c0bc;
   font-family: "Dosis";
   font-size: 20px;
   padding: 20px;
@@ -54,10 +53,16 @@ div {
   padding-top:80px;
   text-align: center;
 }
-.title, .intro h2 {
+.intro table{
+  color: black;
+}
+.intro, .examples h2 {
   color: #00cc99;
   font-family: "Amatic SC", "arial";
   font-size: 40px;
+}
+.title, .intro, .examples {
+  border-bottom: 2px solid #c4c0bc;
 }
 img {
   border-radius: 20px;

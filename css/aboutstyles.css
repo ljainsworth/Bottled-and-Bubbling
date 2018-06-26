@@ -53,17 +53,7 @@ div {
   padding-top:80px;
   text-align: center;
 }
-.intro h2 {
-  color: #00cc99;
-  font-family: "Amatic SC", "arial";
-  font-size: 40px;
-}
-.health h2 {
-  color: #00cc99;
-  font-family: "Amatic SC", "arial";
-  font-size: 40px;
-}
-.risks h2 {
+.intro, .health, .risks h2 {
   color: #00cc99;
   font-family: "Amatic SC", "arial";
   font-size: 40px;
@@ -71,8 +61,21 @@ div {
 .title, .intro, .health, .risks {
     border-bottom: 2px solid #c4c0bc;
 }
+.intro p, br {
+  color: black;
+  font-family: "Dosis";
+  font-size: 20px;
+  padding: 20px;
+}
+.health p, ol {
+  color: black;
+  font-family: "Dosis";
+  font-size: 20px;
+  padding: 20px;
+}
 img {
   border-radius: 20px;
+  padding: 20px;
 }
 footer {
   background: rgba(255,255,255,0.8);
