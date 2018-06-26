@@ -4,6 +4,7 @@ html{
 }
 ul.nav_menu {
   background-color: rgba(255,255,255,0.8);
+  border-bottom: 2px solid #c4c0bc;
   color: #00cc99;
   font-family: "Amatic SC", "arial";
   font-size: 30px;
@@ -41,9 +42,9 @@ body {
   font-size: 30px;
 }
 div {
-    font-family: "Dosis";
-    font-size: 20px;
-    padding: 20px;
+  font-family: "Dosis";
+  font-size: 20px;
+  padding: 20px;
 }
 .title h1 {
   color: #ff9966;
@@ -59,6 +60,24 @@ div {
 }
 .title, .kits, .buy {
   border-bottom: 2px solid #c4c0bc;
+}
+.kits p, ol{
+  color: black;
+  font-family: "Dosis";
+  font-size: 20px;
+}
+.buy p {
+  color: black;
+  font-family: "Dosis";
+  font-size: 20px;
+}
+.buy .table .table_image{
+  width: 300px;
+  height: 300px:
+}
+.buy .table table, th, td{
+  text-align: center;
+  border: 2px solid #c4c0bc;
 }
 img {
   border-radius: 20px;
