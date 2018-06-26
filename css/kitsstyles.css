@@ -1,0 +1,90 @@
+html{
+  width: 1200px;
+  margin: auto;
+}
+ul.nav_menu {
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 2px solid #c4c0bc;
+  color: #00cc99;
+  font-family: "Amatic SC", "arial";
+  font-size: 30px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 1200px;
+}
+ul.nav_menu li {
+  display: inline-block;
+  display: incline;
+  float: left;
+  padding-left: 100px;
+  text-align: right
+  text-decoration: none;
+}
+ul.nav_menu .social img{
+  margin: auto;
+  padding-left: 10px;
+  width: 45px;
+}
+ul.nav_menu li:hover {
+  text-decoration: underline;
+}
+ul.nav_menu a {
+  color: #00cc99;
+  text-decoration: none;
+}
+body {
+  background-image: url('../images/website_background_.jpg');
+  background-size: cover;
+  font-family: "Amatic SC", "arial";
+  font-size: 30px;
+}
+div {
+  font-family: "Dosis";
+  font-size: 20px;
+  padding: 20px;
+}
+.title h1 {
+  color: #ff9966;
+  font-family: "Amatic SC", "arial";
+  font-size: 50px;
+  padding-top:80px;
+  text-align: center;
+}
+.title, .kits, .buy h2 {
+  color: #00cc99;
+  font-family: "Amatic SC", "arial";
+  font-size: 30px;
+}
+.title, .kits, .buy {
+  border-bottom: 2px solid #c4c0bc;
+}
+.kits p, ol{
+  color: black;
+  font-family: "Dosis";
+  font-size: 20px;
+}
+.buy p {
+  color: black;
+  font-family: "Dosis";
+  font-size: 20px;
+}
+.buy .table .table_image{
+  width: 300px;
+  height: 300px:
+}
+.buy .table table, th, td{
+  text-align: center;
+  border: 2px solid #c4c0bc;
+}
+img {
+  border-radius: 20px;
+}
+footer {
+  background: rgba(255,255,255,0.8);
+}
+#button {
+  margin-left: 20px;
+}
