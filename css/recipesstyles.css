@@ -42,9 +42,10 @@ body {
   font-size: 30px;
 }
 div {
-    font-family: "Dosis";
-    font-size: 30px;
-    padding: 20px;
+  border-bottom: 2px solid #c4c0bc;
+  font-family: "Dosis";
+  font-size: 20px;
+  padding: 20px;
 }
 .title h1 {
   color: #ff9966;
@@ -53,13 +54,10 @@ div {
   padding-top:80px;
   text-align: center;
 }
-.title h2 {
+.title, .intro h2 {
   color: #00cc99;
   font-family: "Amatic SC", "arial";
   font-size: 40px;
-}
-.title, .intro, .examples {
-  border-bottom: 2px solid #c4c0bc;
 }
 img {
   border-radius: 20px;
