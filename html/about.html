@@ -3,7 +3,7 @@
 <head>
   <link rel="stylesheet" type="text/css" href="../css/aboutstyles.css">
   <link href="../css/bootstrap_css/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/js" href="../js/aboutstyles.js">
+  <link rel="stylesheet" type="text/js" href="../js/scripts.js">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Love+Ya+Like+A+Sister|Caveat|Crafty+Girls|Itim|Nanum+Pen+Script" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,7 +27,7 @@
     <h2> What is the stuff? </h2>
     <img class="img-responsive" src="../images/kombucha_breakdown.png">
     <p> Kombucha is an ancient variety of lightly fermented, probiotic tea that was originally drank in China more than 2,200 years ago for its supposed health benefits. Kombucha is produced by using either black or green tea, sugar and a SCOBY (symbiotic culture of bacteria and yeast). The SCOBY's yeast and bacterial populations ferments the sugar and results in its signature low sugar content, tangy vinegary smell and fizz! </p>
-    <br> The Kombucha SCOBY sits in a jar of this sweetened tea for 7-10 days in aerobic conditions (ie the jar isnt closed!) and then you bottle it up for the second anaerobic fermentation (lid closed!) and add your flavours such as fruit juices or additional sugar to let the SCOBY do its thing. After a further 5-10 days, your Kombucha tea will be ready to drink but remember to pop it in the fridge once its done or the gas will continue to build up in your bottle and it WILL explode! </p>
+    <p> The Kombucha SCOBY sits in a jar of this sweetened tea for 7-10 days in aerobic conditions (ie the jar isnt closed!) and then you bottle it up for the second anaerobic fermentation (lid closed!) and add your flavours such as fruit juices or additional sugar to let the SCOBY do its thing. After a further 5-10 days, your Kombucha tea will be ready to drink but remember to pop it in the fridge once its done or the gas will continue to build up in your bottle and it WILL explode! </p> </p>
   </div>
   <div class="health">
     <h2> Health Benefits </h2>
@@ -52,12 +52,12 @@
     <p> Kombucha should always be prepared, stored and bottled in glassware due to the acidic brew potentially leaching materials from plastic/ceramic and other non glass vessels into the finished drink. Further, Kombucha is photo sensitive and so should always be stored in darker conditions to preserve its flavour. </p>
   </div>
   <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="../js/aboutscripts.js"> </script>
+  <script src="../js/scripts.js"> </script>
 </body>
 <footer>
   <div class="comments">
     <p> Comments and Questions </p>
-    <form>
+    <form id="footer">
       <div class="form-group">
         <label> Add any comments </label>
         <textarea class="form-control" rows="5"> </textarea>
@@ -65,7 +65,8 @@
       <div class="form-group">
         <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Your email address">
       </div>
-      <button id="button" type="submit"> Send </button>
+      <input type="submit" id=button />
+    </form>
   </div>
 </footer>
 </html>
